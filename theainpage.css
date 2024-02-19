@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+header{
+    background-color: yellow;
+    display: flex;
+    text-align: center;
+    font-family:Asap,sans-serif ;
+    padding: 20px;
+    justify-content: center;
+    
+}
+body{
+    background-color: rgb(15, 110, 15);
+}
+.score-board{
+    border: 3px solid white;
+   width: 200px;
+   margin:20px auto;
+   color:white;
+   font-size: 46px;
+   text-align: center;
+   padding:15px 20px;
+   font-family: Asap,sans-serif;
+   position: relative;
+}
+.badge{
+    background-color:rgb(255, 81, 0);
+    color:white;
+    font-size: 14px;
+    padding:2px 10px;
+    font-family:Asap,sans-serif;
+
+}
+#user-label{
+    position:absolute;
+    top:30px;
+    left:-25px;
+
+}
+    
